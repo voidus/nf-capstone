@@ -1,6 +1,7 @@
 {
   "name": "next-app",
   "description": "Next.js template",
+  "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -14,7 +15,7 @@
     "jest:watch": "jest --watch",
     "lint": "npm run eslint && npm run stylelint",
     "eslint": "next lint",
-    "prepare": "npx husky install",
+    "setup_husky": "npx husky install",
     "stylelint": "npx stylelint src/{**/*,*}.{css,js,jsx}",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
